@@ -3,23 +3,28 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <link href="https://fonts.googleapis.com/css2?family=Gloock+Spa&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap" rel="stylesheet">
 <div>
-    <img src="m13.png">
+    <img src="красный.jpg" id="product-photo" src="default-photo.jpg" alt="Product Photo">
     <h1>Брендовая женский пиджак от ViaGoui</h1>
     <h3>90.00$</h3>
-    <p>Цвета</p><div class="color-switcher" id="3">
-        <input type="radio" name="color" id="color1" checked>
-        <label for="color1" style="background-color: rgb(255, 238, 0);"></label>
-        
-        <input type="radio" name="color" id="color2">
-        <label for="color2" style="background-color: rgb(0, 0, 0);"></label>
-        
-        <input type="radio" name="color" id="color3">
-        <label for="color3" style="background-color: green;"></label>
+    <p>Цвета</p>
+    <div class="color-switcher" id="3">
+      <input type="radio" name="color" id="color1" checked>
+      <label for="color1" style="background-color: rgb(255, 0, 0);"></label>
+    
+      <input type="radio" name="color" id="color2">
+      <label for="color2" style="background-color: rgb(0, 0, 0);"></label>
+    
+      <input type="radio" name="color" id="color3">
+      <label for="color3" style="background-color: green;"></label>
+    
+      <input type="radio" name="color" id="color4">
+      <label for="color4" style="background-color: rgb(0, 60, 255);"></label>
+    </div>
 
-        <input type="radio" name="color" id="color3">
-        <label for="color3" style="background-color: rgb(0, 60, 255);"></label>
-      </div>
       <p>Размеры</p><div class="product-sizes">
         <span class="size">S</span>
         <span class="size">M</span>
@@ -35,12 +40,12 @@
 </div>
 <div id="1">
   <h1 id="3">90.00 $</h1>
-    <button>
-        <span class="material-symbols-outlined" style="font-size: 64px;">
-          shopping_cart_checkout
-        </span>
-        Купить
-      </button>      
+  <button>
+    <a href="https://t.me/Rano9999999">
+      <span class="material-symbols-outlined" style="font-size: 64px;">shopping_cart_checkout</span>
+      Купить
+    </a>
+  </button>   
 </div>
 <div id="2">
 
@@ -86,4 +91,35 @@
     <a href="#" class="social-icon" id="1"><i class="fab fa-twitter"></i></a>
     <a href="#" class="social-icon" id="1"><i class="fab fa-instagram"></i></a>
     <a href="#" class="social-icon" id="1"><i class="fab fa-youtube"></i></a>
-  </div></div>
+  </div>></div>
+  <script>
+    // Получаем радио-кнопки и элемент фотографии товара
+    const colorRadios = document.querySelectorAll('input[name="color"]');
+    const productPhoto = document.getElementById('product-photo');
+  
+    // Добавляем обработчик событий для каждой радио-кнопки
+    colorRadios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        // Получаем выбранный цвет
+        const selectedColor = document.querySelector('input[name="color"]:checked').id;
+  
+        // Обновляем фотографию в соответствии с выбранным цветом
+        switch (selectedColor) {
+          case 'color1':
+            productPhoto.src = 'красный.jpg';
+            break;
+          case 'color2':
+            productPhoto.src = 'черный.jpg';
+            break;
+          case 'color3':
+            productPhoto.src = 'зеленый.jpg';
+            break;
+          case 'color4':
+            productPhoto.src = 'синий.jpg';
+            break;
+          default:
+            productPhoto.src = 'default-photo.jpg';
+        }
+      });
+    });
+  </script>
