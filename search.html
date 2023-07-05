@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Gloock+Spa&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<form action="search-rezults.html" method="get" onsubmit="submitSearch(event)">
+    <input type="text" id="searchInput" name="search"><li><a href="#">
+      <button><i class="material-icons">search</i></a></li></button>
+  </form>
+  
+  <script>
+    function submitSearch(event) {
+      event.preventDefault();
+      
+      // Получаем значение, введенное пользователем в поле поиска
+      const searchValue = document.getElementById('searchInput').value;
+      
+      // Выполняем проверку на основе введенного значения и перенаправляем на соответствующую страницу
+      
+      if (searchValue === 'яблоко') {
+        window.location.href = 'product.html';
+      } else if (searchValue === 'банан') {
+        window.location.href = 'banana.html';
+      } else if (searchValue === 'апельсин') {
+        window.location.href = 'orange.html';
+      } else {
+        window.location.href = 'default.html';
+      }
+    }
+  </script>
+  <style>
+    body{
+      background-color: rgb(76, 70, 99);
+    }
+    input{
+      width: 90%;
+      height: 40px;
+      border-radius: 30px;
+      font-size: 30px;
+      position: relative;
+      top: 20px;
+      background-color: rgb(44, 38, 77);
+      color: aliceblue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border: none;
+    }
+    .material-icons{
+      position: relative;
+      top: -26px;
+      left: 280px;
+      font-size: 47px;
+      background: none;
+      color: aliceblue;
+    }
+    button{
+      background: none;
+      border: none;
+    }
+  </style>
+  
