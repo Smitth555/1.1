@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="product.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link href="https://fonts.googleapis.com/css2?family=Gloock+Spa&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap" rel="stylesheet">
+<div>
+    <img src="красный.jpg" id="product-photo" src="default-photo.jpg" alt="Product Photo">
+    <h1>Брендовая женский пиджак от ViaGoui</h1>
+    <h3>90.00$</h3>
+    <p>Цвета</p>
+    <div class="color-switcher" id="3">
+      <input type="radio" name="color" id="color1" checked>
+      <label for="color1" style="background-color: rgb(255, 0, 0);"></label>
+    
+      <input type="radio" name="color" id="color2">
+      <label for="color2" style="background-color: rgb(0, 0, 0);"></label>
+    
+      <input type="radio" name="color" id="color3">
+      <label for="color3" style="background-color: green;"></label>
+    
+      <input type="radio" name="color" id="color4">
+      <label for="color4" style="background-color: rgb(0, 60, 255);"></label>
+    </div>
+
+      <p>Размеры</p><div class="product-sizes">
+        <span class="size">S</span>
+        <span class="size">M</span>
+        <span class="size">L</span>
+        <span class="size">XL</span>
+      </div>      
+         
+       <button  class="addToCart" id="2">Add to cart</button>
+    <div class="description-section">
+        <h2>Описание</h2>
+        <p>Ваше описание здесь...описание здесь описание здесь описание здесь описание здесь описание здесь</p>
+      </div>
+</div>
+</div>
+<div id="1">
+  <h1 id="3">90.00 $</h1>
+  <button>
+    <a href="https://t.me/Rano9999999">
+      <span class="material-symbols-outlined" style="font-size: 64px;">shopping_cart_checkout</span>
+      Купить
+    </a>
+  </button>   
+</div>
+<div id="2">
+
+</div>
+    
+<h2 id="5">С этим покупают:</h2>
+<div class="horizontal-field">
+  <div class="product-card" id="5">
+    <a href="product.html"><img src="m13.png" alt="Фотография товара 2"></a>
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+</div>
+  <div class="product-card">
+    <a href="product.html"><img src="m13.png" alt="Фотография товара 2"></a>
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+  </div>
+  <div class="product-card">
+    <img src="m13.png" alt="Фотография товара 3">
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+  </div>
+  <div class="product-card">
+    <img src="m13.png" alt="Фотография товара 3">
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+  </div>
+  <div class="product-card">
+    <img src="m13.png" alt="Фотография товара 3">
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+  </div>
+  <div class="product-card">
+    <img src="m13.png" alt="Фотография товара 3">
+    <h2 id="unical">Описание товара</h2>
+    <p class="price"> $49.99</p>
+  </div>
+</div>
+<div id="9">  <div class="social-bar" id="8">
+    <!-- Иконки социальных сетей -->
+    <p id="unical">Мы в социальных сетях</p>
+    <a href="#" class="social-icon" id="1"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon" id="1"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon" id="1"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon" id="1"><i class="fab fa-youtube"></i></a>
+  </div>></div>
+  <script>
+    // Получаем радио-кнопки и элемент фотографии товара
+    const colorRadios = document.querySelectorAll('input[name="color"]');
+    const productPhoto = document.getElementById('product-photo');
+  
+    // Добавляем обработчик событий для каждой радио-кнопки
+    colorRadios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        // Получаем выбранный цвет
+        const selectedColor = document.querySelector('input[name="color"]:checked').id;
+  
+        // Обновляем фотографию в соответствии с выбранным цветом
+        switch (selectedColor) {
+          case 'color1':
+            productPhoto.src = 'красный.jpg';
+            break;
+          case 'color2':
+            productPhoto.src = 'черный.jpg';
+            break;
+          case 'color3':
+            productPhoto.src = 'зеленый.jpg';
+            break;
+          case 'color4':
+            productPhoto.src = 'синий.jpg';
+            break;
+          default:
+            productPhoto.src = 'default-photo.jpg';
+        }
+      });
+    });
+  </script>
+
+
+<script>
+  document.querySelector('.addToCart').addEventListener('click', function() {
+      var imageSrc = document.querySelector('#product-photo').getAttribute('src');
+
+      // Сохранить путь к изображению в localStorage
+      localStorage.setItem('productImage', imageSrc);
+  });
+</script>
