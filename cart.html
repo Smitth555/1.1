@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+  <title>Корзина</title>
+</head>
+<body>
+  <h2>Корзина</h2>
+  <ul id="cartItems"></ul>
+
+  <button onclick="clearCart()">Очистить корзину</button>
+
+  <script>
+    // Функция для очистки корзины
+    function clearCart() {
+      localStorage.removeItem("cartItems");
+      renderCart();
+    }
+
+    function renderCart() {
+      const cartItems = document.getElementById("cartItems");
+      cartItems.innerHTML = "";
+
+      const savedItems = localStorage.getItem("cartItems");
+
+      if (savedItems) {
+        const items = JSON.parse(savedItems);
+        items.forEach(item => {
+          const li = document.createElement("li");
+
+          const image = document.createElement("img");
+          image.src = item.imageSrc;
+          image.alt = "Изображение товара";
+          li.appendChild(image);
+
+          const description = document.createElement("span");
+          description.textContent = item.textDescription;
+          li.appendChild(description);
+
+          cartItems.appendChild(li);
+        });
+      }
+    }
+
+    renderCart();
+    function renderCart() {
+  const cartItems = document.getElementById("cartItems");
+  cartItems.innerHTML = "";
+
+  const savedItems = localStorage.getItem("cartItems");
+
+  if (savedItems) {
+    const items = JSON.parse(savedItems);
+    items.forEach(item => {
+      const li = document.createElement("li");
+
+      const link = document.createElement("a");
+      link.href = item.link;
+
+      const image = document.createElement("img");
+      image.src = item.imageSrc;
+      image.alt = "Изображение товара";
+      link.appendChild(image);
+      li.appendChild(link);
+
+      const description = document.createElement("span");
+      description.textContent = item.textDescription;
+      li.appendChild(description);
+      
+      cartItems.appendChild(li);
+    });
+  }
+}
+  </script>
+  <style>
+    
+ul {
+  list-style-type: none;
+}
+span{
+  font-size: 40px;
+  margin-left: -20px;
+  color: rgb(37, 37, 75);
+}
+    body{
+      font-size: 33px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgb(0, 0, 0);
+      background-color: white;
+      font-weight: 900;
+    }
+    button{
+      width: 350px;
+      font-size: 27px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 15%;
+      height: 60px;
+      border-radius: 50px;
+      border: none;
+      background-color: black;
+      color: rgb(255, 255, 255);
+      position: fixed;
+      bottom: 20px;
+      left: -30px;
+    }
+    h2{
+      font-size: 60px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: blueviolet;
+      margin-left: 20px;
+    }
+    img{
+      width: 350px;
+      margin-left: -20px;
+    }
+    
+  </style>
+</body>
+</html>
