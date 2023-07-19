@@ -8,7 +8,7 @@ body{
   position: fixed;
   bottom: 0px;
   width:100%;
-  background-color: #fff9a5;
+  background-color: #cfffad;
   height: 70px;
   margin-left: -10px;
 }
@@ -90,6 +90,7 @@ body{
      width: 37%;
      height: auto;
      border-radius: 16px;
+     border: solid #6c9177 1px;
    }
    
  p[id="unical"]{
@@ -97,7 +98,7 @@ body{
     font-size: 19px;
     width: 500px;
     margin-left: 20px;
-    color: rgb(47, 47, 155);
+    color: rgb(45, 45, 110);
    }
   .product-card .price {
     font-weight: bold;
