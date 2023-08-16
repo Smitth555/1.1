@@ -5,7 +5,7 @@ h1{
 .bgf{
     width: 100%;
     height: 500px;
-    background-image: url("photo_2023-08-12_15-41-42.jpg");
+    background-image: url("imgonline-com-ua-Blur-MEKfhywNMnz.jpg");
     background-size: cover;
 }
 .logo-blocks{
@@ -175,8 +175,8 @@ input:focus {
       }
       .btn-6{
         color: rgb(255, 255, 255);
-        background: linear-gradient(to right, rgb(133, 4, 255), rgb(255, 0, 0), rgb(255, 102, 0));
-          width: 50%;
+        background: linear-gradient(to right, rgb(145, 27, 255), blueviolet);
+        width: 50%;
           margin-left: 25%;
       }
 .btn-7{
