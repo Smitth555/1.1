@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Raleway:wght@100&family=Roboto+Mono:ital@1&display=swap');
+
 .block-1{
     object-fit: cover;
     background-image: url(pexels-george-ketselashvili-761787.jpg);
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
-    width: 104%;
+    width: 100%;
     margin-right: 28px;
     height: 850px;
     background-size: cover;
+    position: relative;
+    top: -30px;
+}
+img{
+    width: 100%;
+  position: relative;
+  top: 33px;
+}
+.block-2{
+    width: 100%;
+    height: 1500px;
+    background-color: black;
     position: relative;
     top: -30px;
 }
@@ -20,7 +33,33 @@
     top: -700px;
     background-color: rgb(73, 75, 75);
 }
-
+.txt-3{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    top: 30px;
+    
+}
+.btn-3{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    width: 50%;
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+    font-style: italic;
+}
+p{
+    color: rgb(243, 242, 209);
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
 h1{
     font-family: 'Helvitic', sans-serif;
 font-weight: 900;
@@ -56,10 +95,19 @@ button{
     border: none;
     height: 50px;
     z-index: 9999;
+    border-radius: 40px;
+}
+.img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url(AdobeStock_425766212_Preview.jpeg);
+    background-size: cover;
+    position: relative;
+    top: 20px;
 }
 .btn-1{
        width: 50%;
-       background-color: #1b1ec4;
+       background-color: #2356ff;
        color: rgb(209, 205, 197);
        z-index: 9999;
 }
@@ -68,5 +116,5 @@ button{
     background: none;
     border: solid 2px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    margin-top: 33px;
+    margin-top: 10px;
 }
