@@ -7,16 +7,35 @@
     height: 900px;
     background-repeat: no-repeat;
     width: 100%;
-    margin-right: 28px;
     height: 850px;
     background-size: cover;
     position: relative;
     top: -30px;
 }
+.txt-4{
+    font-size: 35px;
+    width: 90%;
+    font-weight: bolder;
+    color: beige;
+}
+.tip-3{
+    background-image: url(hao-wang-pVq6YhmDPtk-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    top: 300px;
+}
 img{
     width: 100%;
   position: relative;
   top: 33px;
+}
+.img-2{
+    background-image: url(marketing-creative-collage-with-phone-transformed.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
 }
 .btn-4{
     width: 85%;
@@ -25,6 +44,11 @@ img{
     color: white;
     border-radius: 13px;
     background-color: cadetblue;
+    position: relative;
+    top: 70px;
+}
+.btn-4:hover{
+    background-color: burlywood;
 }
 .block-2{
     width: 100%;
@@ -63,6 +87,13 @@ img{
     position: relative;
     top: 100px;
 }
+
+.tip-2{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 300px;
+}
 .tip-txt{
     color: rgb(168, 191, 255);
     margin-left: 20px;
@@ -98,7 +129,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 h1{
-    font-family: 'Helvitic', sans-serif;
+    font-family: 'Universe', sans-serif;
 font-weight: 900;
 font-size: 48px;
 margin-left: 20px;
@@ -108,9 +139,9 @@ color: #fff8f1;
     font-family: 'Helvitic', sans-serif;
     margin-left: 20px;
     margin-top: 120px;
-    font-weight: 600;
-    z-index: 9999;
-   color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    z-index: 999;
+    color: white;
    font-size: 20px;
    width: 60%;
 }
@@ -142,11 +173,22 @@ button{
     position: relative;
     top: 20px;
 }
+.img-3{
+    width: 100%;
+    height: 200px;
+    background-image: url(farzad-p-xSl33Wxyc-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    top: 20px;
+}
 .btn-1{
        width: 50%;
        background-color: #2356ff;
        color: rgb(209, 205, 197);
        z-index: 9999;
+}
+.btn-1:hover{
+    background-color: blueviolet;
 }
 .btn-2{
     width: 50%;
@@ -154,4 +196,7 @@ button{
     border: solid 2px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     margin-top: 10px;
+}
+body{
+    background-color: black;
 }
