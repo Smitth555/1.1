@@ -60,7 +60,7 @@ img{
 .opc{
     width: 100%;
     height: 900px;
-    opacity: 0.3;
+    opacity: 0.4;
     position: relative;
     top: -700px;
     background-color: rgb(73, 75, 75);
@@ -122,7 +122,7 @@ img{
 p{
     color: rgb(243, 242, 209);
     margin-left: 20px;
-    font-weight: 100;
+    font-weight: 200;
     position: relative;
     top: 30px;
     font-size: 18px;
@@ -184,8 +184,9 @@ button{
 .btn-1{
        width: 50%;
        background-color: #2356ff;
-       color: rgb(209, 205, 197);
+       color: rgb(255, 255, 255);
        z-index: 9999;
+       border-radius: 15px;
 }
 .btn-1:hover{
     background-color: blueviolet;
@@ -196,7 +197,11 @@ button{
     border: solid 2px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     margin-top: 10px;
+    border-radius: 15px;
 }
 body{
     background-color: black;
+}
+a{
+    color: white;
 }
