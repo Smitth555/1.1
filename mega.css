@@ -5,9 +5,6 @@
     background-image: url(pexels-george-ketselashvili-761787.jpg);
     width: 100%;
     height: 900px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 850px;
     background-size: cover;
     position: relative;
     top: -30px;
@@ -60,7 +57,7 @@ img{
 .opc{
     width: 100%;
     height: 900px;
-    opacity: 0.4;
+    opacity: 0.0;
     position: relative;
     top: -700px;
     background-color: rgb(73, 75, 75);
@@ -109,15 +106,29 @@ img{
     position: relative;
     top: 80px;
 }
+.flatcoin-1{
+    width: 30%;
+    margin-left: 20px;
+    position: relative;
+    top: 80px;
+    position: relative;
+    top: 100px;
+}
 .btn-3{
     margin-left: 20px;
     background-color: white;
     color: black;
     width: 50%;
-    border-radius: 40px;
+    border-radius: 15px;
     position: relative;
     top: 40px;
-    font-style: italic;
+}
+.txt-5{
+    position: relative;
+
+top: 100px;
+font-size: 35px;
+color: rgb(213, 229, 230);
 }
 p{
     color: rgb(243, 242, 209);
@@ -151,13 +162,6 @@ color: #fff8f1;
     z-index: 9999;
     
 }
-.btn-block{
-    position: relative;
-margin-left: 20px;
-width: 100%;
-top: 100px;
-z-index: 9999;
-}
 button{
     font-weight: bolder;
     border: none;
@@ -187,6 +191,9 @@ button{
        color: rgb(255, 255, 255);
        z-index: 9999;
        border-radius: 15px;
+       position: relative;
+       top: 100px;
+       margin-left: 20px;
 }
 .btn-1:hover{
     background-color: blueviolet;
@@ -198,6 +205,10 @@ button{
     color: rgb(255, 255, 255);
     margin-top: 10px;
     border-radius: 15px;
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+    z-index: 9999;
 }
 body{
     background-color: black;
