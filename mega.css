@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Raleway:wght@100&family=Roboto+Mono:ital@1&display=swap');
 .logo-block{
     width: 105%;
-    height: 60px;
+    height: 70px;
     position: fixed;
     top: 0px;
-    background-color: white;
+    background-color: rgb(45, 49, 82);
     z-index: 9999;
     right: 0px;
 }
@@ -14,7 +14,8 @@ h5{
     position: relative;
     top: -35px;
     font-weight: 900;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: sans-serif;
+    color: white;
 }
 .block-1{
     object-fit: cover;
@@ -140,6 +141,15 @@ img{
     position: relative;
     top: 200px;
     border-radius: 13px;
+    background-image: url(AdobeStock_217451286_Preview.jpeg);
+    background-size: cover;
+}
+.cv-btn{
+    width: 40%;
+    margin-left: 20px;
+    position: relative;
+    top: 72%;
+    color: rgb(102, 102, 102);
 }
 .tip-txt{
     color: rgb(168, 191, 255);
