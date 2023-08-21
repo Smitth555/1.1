@@ -238,7 +238,7 @@ a{
 .mgh{
     width: 106%;
     right: 14px;
-    height: 1000px;
+    height: 800px;
     background-color: #fff8f1;
     position: relative;
     top: 400px;
@@ -313,4 +313,52 @@ a{
     margin-left: 14%;
     position: relative;
     bottom: 40px;
+}
+.mgh-1{
+    width: 100%;
+    height: 1000px;
+    background-color: none;
+}
+.block-3{
+    background: none;
+    width: 100%;
+    height: 1000px;
+}
+.block-3-h1{
+    color: #ffffff;
+    margin-left: 20px;
+    position: relative;
+    top: 420px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.price-block{
+    width: 90%;
+    margin-left: 5%;
+    border: solid 2px rgb(112, 112, 112);
+    height: 650px;
+    position: relative;
+    top: 450px;
+    border-radius: 15px;
+    background-color: rgb(49, 51, 65);
+    margin-top: 30px;
+}
+h3{
+    margin-left: 20px;
+    color: white;
+    font-size: 33px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.price-btn{
+    width: 80%;
+    margin-left: 10%;
+    height: 45px;
+    border-radius: 14px;
+    position: relative;
+    top: 80px;
+    background-color: #e63946;
+}
+.price-btn:hover{
+    background-color: #a8dadc;
 }
