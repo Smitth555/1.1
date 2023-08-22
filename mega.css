@@ -285,9 +285,19 @@ a{
     width: 106%;
     right: 14px;
     height: 800px;
-    background-color: #fff8f1;
+    background: linear-gradient(rgb(7, 7, 7), rgb(43, 87, 81));
     position: relative;
     top: 400px;
+}
+.obout-uss{
+    width: 90%;
+    margin-left: 5%;
+    height: 953px;
+    background-color: #323244;
+    position: relative;
+    top: 550px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 2px #44445c;
 }
 input{
     width: 90%;
