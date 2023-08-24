@@ -75,9 +75,9 @@ img{
     width: 85%;
     margin-left: 7.5%;
     height: 50px;
-    color: white;
+    color: rgb(39, 39, 39);
     border-radius: 53px;
-    background-color: rgb(0, 174, 180);
+    background-color: rgb(216, 217, 219);
     position: relative;
     top: 40px;
 }
@@ -248,12 +248,13 @@ button{
 }
 .btn-1{
        width: 80%;
-       background-color: rgb(81, 122, 255);
+       background-color: rgb(255, 145, 0);
        color: rgb(255, 255, 255);
        border-radius: 45px;
        position: relative;
        top: 40px;
        margin-left: 10%;
+       height: 39px;
 }
 .btn-1:hover{
     background-color: rgb(255, 165, 123);
@@ -268,6 +269,7 @@ button{
     position: relative;
     top: 50px;
     margin-left: 17.5%;
+    height: 39px;
 }
 body{
         background-color: rgb(41, 43, 54);
