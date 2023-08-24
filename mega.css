@@ -15,12 +15,12 @@ h5{
     width: 100%;
     height: 340px;
     position: relative;
-    top: 53px;
+    top: 14px;
 }
 .block-1{
     object-fit: cover;
     width: 100%;
-    height: 900px;
+    height: 1040px;
     background-size: cover;
     position: relative;
     top: -30px;
@@ -76,8 +76,8 @@ img{
     margin-left: 7.5%;
     height: 50px;
     color: white;
-    border-radius: 13px;
-    background-color: cadetblue;
+    border-radius: 53px;
+    background-color: rgb(0, 174, 180);
     position: relative;
     top: 40px;
 }
@@ -176,7 +176,7 @@ img{
     background-color: white;
     color: black;
     width: 50%;
-    border-radius: 15px;
+    border-radius: 45px;
     position: relative;
     top: 70px;
 }
@@ -249,28 +249,28 @@ button{
     top: 20px;
 }
 .btn-1{
-       width: 50%;
+       width: 70%;
        background-color: coral;
        color: rgb(255, 255, 255);
       z-index: 9999;
        border-radius: 45px;
        position: relative;
-       top: -100px;
-       margin-left: 20px;
+       top: 40px;
+       margin-left: 15%;
 }
 .btn-1:hover{
     background-color: blueviolet;
 }
 .btn-2{
-    width: 50%;
+    width: 65%;
     background: none;
     border: solid 2px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     margin-top: 10px;
     border-radius: 45px;
     position: relative;
-    top: -100px;
-    margin-left: 20px;
+    top: 50px;
+    margin-left: 17.5%;
     z-index: 9999;
 }
 body{
@@ -286,10 +286,11 @@ body{
 }
 .obout-uss{
     width: 100%;
-    height: 953px;
+    height: 703px;
     position: relative;
-    top: 550px;
-    border-radius: 15px;
+    top: 500px;
+    border-radius: 0px;
+    background-color: rgb(7, 11, 26);
 }
 input{
     width: 90%;
@@ -372,7 +373,7 @@ a{
 .block-3{
     background: none;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
 }
 .block-3-h1{
     color: #ffffff;
@@ -422,4 +423,11 @@ h3{
     background-image: url(photo_2023-08-18_15-24-33.jpg);
     position: relative;
     top: 400px;
+}
+.fd{
+    color: white;
+    position: relative;
+    top: 500px;
+    width: 90%;
+    margin-left: 5%;
 }
