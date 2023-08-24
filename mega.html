@@ -11,15 +11,24 @@
 </head>
 <body>
 
+    <form action="" id="tg" class="formB">
+        <h2 class="input-h2">Отправьте заявку и наш администратор свяжется с вами в ближайшее время</h2>
+     <input type="text" placeholder="*Введите имя/ Name" name="name" required> 
+    <input type="number" style="position: relative; top: -60px;" name="number" size="10" required placeholder="*+998-99-999-99-99/number" > 
+    <button class="input-btn" type="sumbit" id="orderButton">Отправить</button>
+    
+    <p class="input-p">Отправляя свои данные вы соглашаетесь с условиями предоставления данных , данные не передаються 3 лицам</p>
 
+    <p class="input-obout" style="text-align: center; position: relative; top: 10px;"><a href="tel:+998917773826">Теххподержка : *+998 91 777 38 26</a></p>
+</form>
 
 
     <div class="block-1">
         <h1 class="tkt-1"><span style="color: rgb(255, 254, 254);">Web</span><span style="color: rgb(62, 98, 255);">Crafts</span> - Разработка<span style="color: coral;"> сайтов</span> и приложений</h1>
         <h1 class="txt-2">Откройте свою новую главу с нашим агентством по разработке мобильных приложений и сайтов!</h1>
         <div class="unical-block"></div>   
-        <button class="btn-1" >Заказать сайт</button>
-            <button class="btn-2">Связаться</button>
+        <a href="https://t.me/UzumMarketStore"><button class="btn-1" >Узнать подробнее</button></a>
+            <button class="btn-2" id="showFormButton">Оставить заявку</button>
 
         <div class="opc"></div>
 
@@ -32,7 +41,7 @@
         <div class="txt-p">   
         <p style="font-weight: 300; width: 90%; position: relative; top: 4px;">В современном мире, в котором все больше людей обращаются к интернету в поисках информации и товаров, наличие собственного сайта становится необходимостью для любого бизнеса. Без онлайн-присутствия вы рискуете упустить массу возможностей и потенциальных клиентов.
             </p></div> 
-            <a href="https://t.me/UzumMarketStore"><button class="btn-3">Начать</button></a>
+            <a href="https://t.me/UzumMarketStore"><button class="btn-3" id="showFormButton">Начать</button></a>
             <h1 class="txt-4">Наши услуги по веб-разработке</h1>
 
             <div class="tip">
@@ -109,7 +118,7 @@
                  <p>Создание уникального дизайна</p>
                  <p>Вся информация о компании</p>
                  <p style="color: burlywood;">Срок разработки : 7 дней</p>
-                 <a href="https://t.me/UzumMarketStore"><button class="price-btn">Заказать</button></a>
+                 <a href="https://t.me/UzumMarketStore"><button class="price-btn" > Заказать</button></a>
             </div>
 
             <div class="price-block" style="height: 620px;">
@@ -145,6 +154,30 @@
             <p class="fd">WebCrafts 2023 Все права защищены</p>
           
         </div>
+
+        <style>
+            .formB {
+              display: none;
+            }
+            .opc{
+              width: 100%;
+              height: 540px;
+              background-color: #000000;
+              opacity: 0.2;
+              position: relative;
+              top: -1200px;
+            }
+          </style>
+          <div class="formB">
+            <!-- Здесь ваша форма Б -->
+          </div>
+          <script>
+            function showFormB() {
+              var formB = document.querySelector(".formB");
+              formB.style.display = "block";
+            }
+          </script>
+
 </body>
 
 
