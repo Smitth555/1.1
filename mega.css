@@ -447,3 +447,18 @@ h3{
   margin-top: 10px;
   border: 1px solid #ccc;
 }
+.escape{
+    width: 25%;
+    height: 25px;
+    background-color: rgb(218, 0, 0);
+    color: wheat;
+    position: relative;
+    top: 40px;
+    margin-left: 63%;
+     border-radius: 30px;
+}
+#message {
+    color: red;
+    font-weight: bold;
+  }
+  
