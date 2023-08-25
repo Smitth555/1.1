@@ -457,8 +457,10 @@ h3{
     margin-left: 63%;
      border-radius: 30px;
 }
-#message {
-    color: red;
-    font-weight: bold;
+  .d{
+    color: rgb(255, 255, 255);
   }
-  
+  .sf{
+    position: relative;
+    top: -93px;
+  }
