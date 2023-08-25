@@ -458,7 +458,8 @@ h3{
      border-radius: 30px;
 }
   .d{
-    color: rgb(255, 255, 255);
+    color: rgb(237, 209, 255);
+    font-weight: 600;
   }
   .sf{
     position: relative;
