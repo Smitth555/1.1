@@ -34,3 +34,16 @@ var myForm = document.getElementById("tg");
 showFormButton.addEventListener("click", function() {
   myForm.style.display = "block";
 });
+ 
+
+// Получаем кнопку по ее идентификатору
+var button = document.getElementById('orderButton');
+
+// Получаем кнопку по ее идентификатору
+var button = document.getElementById('orderButton');
+
+// Добавляем обработчик события "click" для кнопки
+button.addEventListener('click', function() {
+  // Выводим сообщение
+  alert('Сообщение');
+});
