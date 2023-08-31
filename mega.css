@@ -406,17 +406,20 @@ a{
     height: 600px;
     position: relative;
     top: 450px;
-    border-radius: 0px;
-    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    border-radius: 9px;
+    background-color: rgb(255, 254, 241);
     margin-top: 25px;
-    box-shadow: 1px 2px 1px black;
     color: black;
 }
-.price-block:hover{
-    background: linear-gradient(rgb(224, 224, 224), rgb(224, 224, 224));
+.prs{
+    width: 95%;
+    height: 170px;
+    background-color: #fff8e8;
+    margin-left: 2.5%;
+    border-radius: 20px;
 }
 .price-btn-1{
-    width: 60%;
+    width: 50%;
     margin-left: -138px;
     height: 40px;
     color: black;
@@ -426,17 +429,20 @@ a{
     top: 110px;
 }
 .price-btn-1:hover{
-    background-color: rgb(11, 0, 51);
+    background-color: rgb(18, 0, 82);
     color: rgb(255, 255, 255);
 }
 .b{
     color: black;
     font-size: 15px;
+    font-weight: 300;
+    width: 89%;
 }
 .asd{
     width: 90%;
     height: 35px;
-    background-color: #000000;
+    background: none;
+    margin-left: 11px;
 }
 h3{
     margin-left: 20px;
@@ -454,13 +460,14 @@ h3{
     position: relative;
     top: 50px;
     color: white;
-    background-color: #2e8826;
+    background-color: #002fff;
+    text-decoration: none;
 }
 i{
     margin-left: 8px;
 }
 .price-btn:hover{
-    background-color: #ffc09c;
+    background-color: #7370ff;
 }
 .img-5{
     width: 100%;
