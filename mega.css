@@ -283,7 +283,7 @@ body{
     width: 106%;
     right: 14px;
     height: 800px;
-    background: linear-gradient(rgb(7, 7, 7), rgb(43, 87, 81));
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
     position: relative;
     top: 400px;
 }
@@ -339,7 +339,7 @@ form{
     width: 90%;
     margin-left: 5%;
     height: 500px;
-    background-color: #f1f0f0;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 1px 2px 2px   rgb(80, 80, 80);
     position: relative;
@@ -403,7 +403,7 @@ a{
     width: 90%;
     margin-left: 5%;
     border: solid 1px rgb(63, 66, 82);
-    height: 600px;
+    height: 460px;
     position: relative;
     top: 450px;
     border-radius: 9px;
