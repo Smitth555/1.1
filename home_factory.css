@@ -1,0 +1,217 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+img{
+    width: 50%;
+    margin-left: 0%;
+    position: relative;
+    top: 0px;
+}
+.block-1{
+    width: 50%;
+    height: 374px;
+    background-color: rgb(24, 24, 24);
+    margin-left: 50%;
+    position: relative;
+    top: -378px;
+}
+p{
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 3%;
+    color: rgb(161, 161, 161);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    top: 33px;
+}
+.p-block-1{
+    width: 90%;
+    margin-left: 5%;
+    height: 160px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+}
+.btn-1{
+    margin-left: 6%;
+    border: solid 1px white;
+    background: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    width: 30%;
+    border-radius: 33px;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+a{
+    color: rgb(216, 216, 216);
+}
+.img-block-1{
+    width: 80%;
+    margin-left: 10%;
+    height: 422px;
+    background-image: url(ashley-byrd-yzkTCP4uc9E-unsplash.jpg);
+    background-size: cover;
+    background-position: center; /* You can change this to adjust the position */
+    position: absolute;
+    top: 850px;
+    border-radius: 0px;
+    border: solid 5px rgb(126, 124, 124);
+}
+.img-block-1:hover{
+    width: 90%;
+    margin-left: 5%;
+    height: 460px;
+    transition: all 0.5s ease; /* Добавляем плавную анимацию для всех свойств */
+}
+body{
+    background-color: black;
+}
+.gf-1{
+    width: 30%;
+    margin-left: 2.5%;
+    height: 540px;
+    background: none;
+    border: none;
+    position: relative;
+    top: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(22, 22, 22);
+}
+.gf-1:hover{
+    border: none;
+}
+h2{
+    color: rgb(216, 216, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 5%;
+}
+.p-gf{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    margin-left: 5%;
+}
+.p-block-2{
+    width: 92%;
+    margin-left: 4%;
+    height: 141px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 7px;
+}
+.gf-btn{
+    margin-left: 5%;
+    height: 35px;
+    border: none;
+    background-color: rgb(204, 252, 255);
+    border-radius: 30px;
+    width: 55%;
+    font-weight: bold;
+    position: relative;
+    margin-top: 33px;
+}
+.gf-btn-2{
+    margin-left: -55%;
+    height: 35px;
+    border: solid 0.5px rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 55%;
+    color: rgb(255, 255, 255);
+    background: none;
+    position: relative;
+    top: 45px;
+}
+.gf-btn:hover{
+    background: none;
+    border: solid 2px white;
+    color: white;
+}
+.gf-btn-2:hover{
+    background-color: white;
+    color: black;
+}
+i{
+    color: rgb(48, 48, 48);
+    font-size: 25px;
+    background: none;
+    font-weight: 900;
+}
+.viem-more{
+    background: none;
+    border: none;
+    margin-left: 80%;
+    position: relative;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(180, 180, 180);
+}
+.viem-more:hover{
+    background-color: rgb(104, 104, 104);
+}
+.txt-1{
+    position: relative; top: -20px; font-size: 65px;font-weight: 100; 
+}
+.txt-3{
+    width: 80%; text-align: center; color: rgb(255, 255, 255); font-size: 50px; position: relative; top: 8%; font-weight: 100;
+}
+.sc-1{
+    color: rgb(255, 255, 255); position: relative; top: -50px; margin-left: 11%;
+}
+/* Стили для мобильных устройств с шириной экрана до 768 пикселей */
+@media screen and (max-width: 768px) {
+    /* Твои стили для смартфонов */
+    h1{
+        font-size: 45px;
+    }
+    .txt-2{
+        font-size: 31px;
+        color: rgb(255, 220, 145);
+    }
+    .img-1{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-right: -3%;
+    }
+    .block-1{
+        width: 100%;
+        position: relative;
+        margin-left: 0px;
+        top: 80px;
+    }
+    .img-block-1{
+        position: relative;
+        top: 300px;
+    }
+    .txt-3{
+        font-size: 28px;
+        margin-left: 5%;
+        color: rgb(255, 220, 145);
+    }
+    .sc-1{
+        position: relative;
+        top: 101px;
+        margin-left: 10%;
+        display: none;
+    }
+    .btn-1{
+        margin-left: 10%;
+        position: relative;
+        top: 70px;
+    }
+  }
