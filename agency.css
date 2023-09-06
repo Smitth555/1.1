@@ -35,7 +35,7 @@ button{
 .btn-1{
     border: none;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(123, 0, 238), rgb(0, 17, 255));
+    background: linear-gradient(to right, rgba(9, 104, 0, 0.548), rgb(0, 255, 55));
     color: white;
     font-weight: 200;
     position: relative;
@@ -125,9 +125,9 @@ margin-top: 15px;
 .faqs-block{
     width: 90%;
     margin-left: 5%;
-    height: 150px;
+    height: 120px;
     border-radius: 20px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
     position: relative;
     top: 75px;
 }
@@ -136,7 +136,12 @@ margin-top: 15px;
     top: 15px;
     font-weight: 100;
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 13px;
+}
+.p3{
+    color: rgb(0, 102, 14);
+    position: relative;
+    top: 25px;
 }
 input::placeholder{
     position: relative;
