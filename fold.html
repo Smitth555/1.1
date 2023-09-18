@@ -8,11 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Начните свой путь в мире IT с <span style="color:rgb(15, 15, 95);">GRAgency</span> осыойте навыки прогромирования в сфере професиональной Beckand разработки </h1>
-   
+<div class="logo-block">
+    <button style="background: none;"  id="show-form"><i class="fas fa-bars" style="color: white; margin-left: 30px; position: relative; top: 11px; font-size: 21px;"></i>
+    </button>
+</div>
+
+   <h1>Начните свой путь в мире IT с <span style="color:rgb(15, 15, 95);">GRAgency</span> освойте навыки прогромирования в сфере професиональной Beckand разработки </h1>
+   <div class="block-1"></div>
    <div class="line-1"></div>
    <div class="btn-bc">
-   <button class="btn-1">Узнать подробнее<i class="fas fa-arrow-right" style="color: rgb(196, 196, 196);"></i></button>
+   <button class="btn-1">Оствить заявку<i class="fas fa-arrow-right" style="color: rgb(196, 196, 196);"></i></button>
    </div>
+   <form id="my-form" class="oj">
+    
+  <button id="hide-form" class="close"><i class="fas fa-times" style="color: white; font-size: 25px;"></i></button>
+    <!-- Поля формы -->
+  </form>
 </body>
+<script>
+    const showFormButton = document.getElementById("show-form");
+const myForm = document.getElementById("my-form");
+
+// Добавляем обработчик событий на кнопку
+showFormButton.addEventListener("click", function() {
+  // При нажатии на кнопку, показываем форму
+  myForm.style.display = "block";
+});
+</script>
 </html>
