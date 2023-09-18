@@ -27,11 +27,11 @@ p{
 .btn-1{
     margin-left: 5%;
     height: 38px;
-    width: 40%;
-    background: none;
+    width: 90%;
+    background: linear-gradient(to right, black, rgb(50, 48, 78));
     position: relative;
     top: 80px;
-    border:  solid 1px rgb(145, 145, 145);
+    border: none;
     color: white;
     border-radius: 40px;
 }
@@ -39,7 +39,7 @@ p{
     width: 90%;
     margin-left: 5%;
     height: 300px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(15, 15, 15);
     position: relative;
     top: 90px;
     border-radius: 20px;
