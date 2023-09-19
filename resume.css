@@ -27,7 +27,7 @@ li{
     top: 80px;
     width: 90%;
     margin-left: 5%;
-    height: 240px;
+    height: 270px;
     background-color: rgb(242, 245, 245);
     border-radius: 12px;
 }
@@ -57,13 +57,13 @@ p{
 }
 .obout{
     margin-left: 5%;
-    width: 40%;
+    width: 50%;
     height: 37px;
     background-color: blue;
     border: none;
     border-radius: 40px;
     color: rgb(255, 254, 254);
-    font-weight: 300;
+    font-weight: 700;
     margin-top: 15px;
 }
 .btn-1:hover{
