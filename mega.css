@@ -6,8 +6,9 @@
     top: 88px;
     z-index: 999;
     font-family: 'Black Ops One', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
 }
-
 h5{
     font-size: 30px;
     margin-left: 50px;
@@ -21,10 +22,12 @@ h5{
     background-image: url(photo_2023-08-18_15-24-33.jpg);
     object-fit: cover;
     background-size: cover;
-    width: 100%;
+    width: 95%;
+    margin-left: 2.5%;
     height: 340px;
     position: relative;
     top: 14px;
+    border-radius: 30px;
 }
 .block-1{
     object-fit: cover;
@@ -224,7 +227,7 @@ color: #fff8f1;
     font-weight: 200;
     z-index: 999;
     color: white;
-   font-size: 20px;
+   font-size: 19px;
    width: 60%;
 }
 
@@ -252,28 +255,28 @@ button{
     top: 20px;
 }
 .btn-1{
-       width: 80%;
-       background: linear-gradient(to right, coral, blue);
+       width: 90%;
+       background: linear-gradient(to right, rgb(255, 68, 0), blue);
        color: rgb(255, 255, 255);
-       border-radius: 29px;
+       border-radius: 13px;
        position: relative;
        top: 40px;
-       margin-left: 10%;
+       margin-left: 5%;
        height: 45px;
 }
 .btn-1:hover{
     background-color: rgb(255, 165, 123);
 }
 .btn-2{
-    width: 65%;
+    width: 90%;
     background: none;
     border: solid 1px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    border-radius: 45px;
+    border-radius: 13px;
     position: relative;
     top: 50px;
-    margin-left: 17.5%;
+    margin-left: 5%;
     height: 45px;
 }
 body{
@@ -321,13 +324,13 @@ input::placeholder{
 .input-btn{
     width: 90%;
     margin-left: 5%;
-    height: 42px;
+    height: 51px;
     position: relative;
     top: -40px;
     background-color: rgb(6, 17, 17);
     color: rgb(88, 88, 88);
     box-shadow: 1px 2px 2px 1px  rgb(158, 158, 158);
-    border-radius: 8px;
+    border-radius: 40px;
     color: rgb(255, 255, 255);
 }
 .input-btn:hover{    
@@ -340,7 +343,7 @@ form{
     margin-left: 5%;
     height: 500px;
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 1px 2px 2px   rgb(80, 80, 80);
     position: relative;
     top: 50px;
@@ -350,7 +353,7 @@ form{
     width: 90%;
     margin-left: 2.5%;
     height: 500px;
-    background-color: #f1f0f0;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 1px 2px 2px  rgb(63, 63, 63);
     position: fixed;
@@ -526,13 +529,24 @@ i{
     width: 19%;
     position: relative;
     left: -110px;
+    border-radius: 20px 0px;
+    background: linear-gradient(to right, rgb(49, 49, 255), rgb(95, 255, 2));
    }
-   
+   .btn-1:hover{
+    background: linear-gradient(to right,rgb(95, 255, 2), blue );
+   }
    .btn-2{
     width: 19%;
     position: relative;
     margin-left: -365px;
     top: 98px;
+    border-radius: 0px 20px;
+    background-color: white;
+    color: black;
+   }
+   .btn-2:hover{
+    background-color: rgb(209, 209, 209);
+    color: black;
    }
    .img-1{
     width: 50%;
@@ -556,7 +570,12 @@ i{
     top: 15px;
    }
    .input-btn{
-    width: 50%;
-    margin-left: 25%;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    border-radius: 50px;
+   }
+   body{
+    background-color: black;
    }
   }
