@@ -68,7 +68,7 @@ h5{
     top: 250px;
     margin-left: 2.5%;
     border: solid 2px rgb(66, 66, 66);
-    border-radius: 25px;
+    border-radius: 15px;
     margin-top: 20px;
 }
 img{
@@ -95,7 +95,7 @@ img{
     top: 40px;
 }
 .btn-4:hover{
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
 }
 .block-2{
     width: 100%;
@@ -158,6 +158,7 @@ img{
     margin-left: 20px;
     position: relative;
     top: 72%;
+    border-radius: 20px 0px 20px 0px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
@@ -188,7 +189,7 @@ img{
     background-color: white;
     color: black;
     width: 50%;
-    border-radius: 45px;
+    border-radius: 15px 5px 20px 5px;
     position: relative;
     top: 70px;
 }
@@ -240,12 +241,14 @@ button{
     border-radius: 40px;
 }
 .img-1{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     height: 200px;
-    background-image: url(AdobeStock_425766212_Preview.jpeg);
+    background-image: url(flg.jpeg);
     background-size: cover;
     position: relative;
     top: 20px;
+    border-radius: 20px 0px;
 }
 .img-3{
     width: 100%;
