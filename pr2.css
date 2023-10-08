@@ -153,8 +153,56 @@ ul{
    }
    .chek-btn{
     width: 99%;
-    margin-left: 1%;
+    margin-left: 0.5%;
     border-radius: 40px;
+   }
+   .chek{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   .chek2{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   .op{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   .ph1{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   li{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   .btn-2{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   
+   h2{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   p{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   .btn-1{
+    margin-left: 2.5%;
+   }
+   .line{
+    margin-left: 2.5%;
+    width: 95%;
+   }
+   .img-block{
+    width: 95%;
+    margin-left: 2.5%;
+   }
+   h1{
+    width: 95%;
+    margin-left: 2.5%;
    }
   }
   
