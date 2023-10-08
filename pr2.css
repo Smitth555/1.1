@@ -113,6 +113,11 @@ ul{
     height: 1000px;
     background-color: black;
 }
+
+.mobile-txt{
+    color: rgb(87, 0, 0);
+   }
+  
 @media screen and (max-width: 480px) {
    .block{
     width: 100%;
@@ -137,11 +142,19 @@ ul{
    }
    .pop{
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
    }
    .chek-btn{
     position: relative;
     top: 5px;
+   }
+   .mobile-txt{
+    color: rgb(87, 0, 0);
+   }
+   .chek-btn{
+    width: 99%;
+    margin-left: 1%;
+    border-radius: 40px;
    }
   }
   
