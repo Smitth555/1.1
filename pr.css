@@ -1,0 +1,57 @@
+.block{
+    width:60%;
+    margin-left: 20%;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+
+}
+.logo-block{
+    width: 100%;
+    position: relative;
+    top: 0px; background-color: rgba(255, 255, 255, 0.3); /* Устанавливаем прозрачность блока */
+    backdrop-filter: blur(8px);
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+}
+h1{
+    width: 90%;
+    margin-left: 7%;
+    font-size: 38px;
+    font-weight: bolder;
+    color: black;
+}
+h2{
+    font-size: 18px;
+    width: 90%;
+    margin-left: 7%;
+    color: black;
+    font-weight: 700;
+}
+.op{
+    font-size: 27px;
+    color: rgba(185, 0, 0, 0.815);
+}
+.op2{
+    font-size: 30px;
+    color: black;
+    margin-left: 2%;position: relative;
+    top: 20px;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+img{
+    margin-left: 7%;
+    width: 90%;
+    height: auto;
+}
+.img-block{
+    width: 90%;
+    margin-left: 7%;
+    height: 543px;
+    background-image: url(img1.webp);
+    background-size: cover;
+}
