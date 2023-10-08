@@ -121,5 +121,27 @@ ul{
    .logo-btn{
     display: none;
    }
+   .btn-2{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: none;
+   }
+   .btn-2:hover{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: none;
+   }
+   .ph1{
+    font-size: 14px;
+    font-weight: 500;
+   }
+   .pop{
+    font-size: 13px;
+    font-weight: 700;
+   }
+   .chek-btn{
+    position: relative;
+    top: 5px;
+   }
   }
   
