@@ -1,4 +1,3 @@
-
 const token = "6741757086:AAEDu04y7zvxmWWOF4x7T_82PzAuNnfmg7c";
 const chat_id = "-1002100006864";
 const URL_API = `https://api.telegram.org/bot${token}/sendMessage`;
@@ -42,8 +41,3 @@ var button = document.getElementById('orderButton');
 // Получаем кнопку по ее идентификатору
 var button = document.getElementById('orderButton');
 
-// Добавляем обработчик события "click" для кнопки
-button.addEventListener('click', function() {
-  // Выводим сообщение
-  alert('Сообщение');
-});
